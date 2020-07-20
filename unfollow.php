@@ -3,7 +3,7 @@ set_time_limit(0);
 
 require __DIR__.'/vendor/autoload.php';
 require __DIR__.'/resources/config.php';
-require __DIR__.'/db.php';
+require __DIR__.'/resources/db.php';
 
 $ig = new \InstagramAPI\Instagram($debug, $truncatedDebug);
 try {
