@@ -6,7 +6,7 @@ $debug = false;
 $truncatedDebug = false;
 
 // DB
-$server = "localhost";
+$dbserver = "localhost";
 $dbnane = "followers";
-$username = "root";
-$password = "123456";
+$dbusername = "root";
+$dbpassword = "123456";
